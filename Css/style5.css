@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../image/bg2.jpg');
+}
+
+.main2{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(1, 0, 32);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    height: 70px;
+}
+
+.logo{
+    font-family: "Arial";
+    color: rgb(243, 186, 0);
+}
+.navbar{    
+    width: 1000px;
+    height: 75px;
+    margin-right: 0%;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 300px;
+    margin-top: 1px
+   
+}
+
+.menu{
+    margin-top: 10px;
+    float: right;
+    height: 50px;
+    margin-left: 300px;
+ 
+ 
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul p{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+ul p a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover{
+    color: #ff7200;
+}
+
+
+.section{
+    height: 470px;
+    max-width: 300px;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.image{
+    margin-top: 4%;   
+}
+.image img{
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+.input{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    width: 250px; 
+}
+
+input{
+    background-color: #eee;
+    border: none;
+    width: 55px;   
+}
+
+tr .add{
+    background-color: rgb(146, 146, 146);
+    border: none;
+}
+
+a.add:hover{
+    color: #ffffff;   
+ }
+
+a .input1:hover{
+   color: #ff7200;   
+}
+
+.section1{
+    text-align: center;
+}
+
+.bt1{
+    margin-top: 10px;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: .9;
+    transition: opacity .3s ease;
+}
+.bt2{
+    margin-top: 10px;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: .9;
+    transition: opacity .3s ease;
+}
+
+.bt3{
+    color: white;
+    width: 60px;
+    height: 25px;
+    border-radius: 10%;
+    background-color: rgb(255, 31, 31);
+    opacity: .9;
+    transition: opacity .3s ease;
+}
+.bt4{
+    margin-top: 10px;
+    color: white;
+    width: 135px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: .9;
+    transition: opacity .3s ease;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+table{
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    width: 80%;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);   
+}
+th{
+    background-color: rgb(3, 87, 112);
+    color: white;
+}
+
+tr td{
+    width: 10px;
+    height: 20px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(147, 198, 240);
+}
+
+
+tr a{
+    text-decoration: none;;
+    color: black;
+    background-color: rgb(238, 180, 55);
+}
+
+tr .remove{
+    text-decoration: none;;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 0, 0);
+}
+
+tr .remove:hover{
+    color: #ff7200;
+ 
+}
+tr a:hover{
+    color: rgb(221, 2, 2);
+}
+
+.search{
+    margin-top: 8%;
+    margin-left: 65%;
+}
+.add{
+    
+    margin-left: 80.3%;
+}
+input{
+    margin-top: 5%;
+    background-color: #eee;
+    border: none;
+    padding: 5px 6px;
+    margin: 5px 0;
+    width: 200px;   
+}
+
+.input1{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    width: 250px;   
+}
